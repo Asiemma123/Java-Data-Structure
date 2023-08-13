@@ -1,6 +1,9 @@
+
+// Import necessary method from Java class 
 import java.lang.Math;
 import java.util.Arrays;
 
+//Power class 
 public class Power{
 
     public static double[] toPower(int size, int power){
@@ -17,7 +20,7 @@ public class Power{
         int power = 2;
         double[] result = toPower(size, power);
         
-        System.out.print("toPower result is: "+Arrays.toString(result));
+        System.out.print("to Power result is: "+Arrays.toString(result));
         
     }
 }
